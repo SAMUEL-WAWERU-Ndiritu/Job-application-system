@@ -1,0 +1,38 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+  overflow-y: scroll;
+  background-color: #f5f5f5;
+}
+
+  #loading{
+    text-align:center;
+     background:url('loader.gif') no-repeat center;
+    height:150px;
+}
+.filter_data{
+  overflow-x: scroll;
+  overflow-y: scroll;
+  background-color: rgb(250, 191, 201);
+}
+.height section{
+  display: flex;
+}
+.icon{
+  width: 1000px;
+  background-size: cover;
+}
+#table_style{
+  background-color: rgb(250, 191, 201);
+}
+#page_menus{
+position: static;
+}
+ table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: cornflowerblue;
+}
+#loading{
+  text-align: center;
+}
